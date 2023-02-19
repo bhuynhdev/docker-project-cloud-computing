@@ -1,0 +1,14 @@
+1. All files in 'docker-exploration':
+IF.txt
+Limerick.txt
+result.txt
+2. Count number of words:
+Word count in IF.txt is: 287
+Word count in Limerick.txt is: 32
+Total word count in 2 files is: 319
+3. Word frequency in IF.txt
+Top 3 words with maximum number of counts in IF.txt are:
+* you: 14
+* If: 13
+* can: 12
+4. Your Computer Local IP Address is: 10.11.113.126
