@@ -50,8 +50,9 @@ hostname = socket.gethostname()
 IP_address = socket.gethostbyname(hostname)    
 output_string += f"4. Your Computer Local IP Address is: {IP_address}\n"
 
-
+# Print the outputs to console
 print(output_string)
 
+# Write to result.txt file
 with open(join(".", "result.txt"), "w") as result_file:
   result_file.write(output_string)
