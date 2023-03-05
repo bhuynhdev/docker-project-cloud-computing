@@ -1,7 +1,15 @@
 import os
+import sys
 from os.path import basename, isfile, join
 from collections import Counter
 import socket
+
+# Get the path arg from command line
+path = sys.argv[1]
+
+# Change cwd
+if path:
+  os.chdir(path)
 
 output_string = ""
 
